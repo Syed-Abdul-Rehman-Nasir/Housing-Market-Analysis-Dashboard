@@ -1,0 +1,6 @@
+shiny
+shinyswatch
+faicons
+pandas
+plotly
+shinywidgets
