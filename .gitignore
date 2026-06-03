@@ -16,11 +16,6 @@ build/
 .DS_Store
 Thumbs.db
 
-# Editor / IDE (local only — not committed)
-.cursor/
-.cursorrules
-.vscode/
-*.code-workspace
 
 # Cursor plans and local agent artifacts (if copied into project)
 *.plan.md
