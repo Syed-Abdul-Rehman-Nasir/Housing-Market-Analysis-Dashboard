@@ -108,27 +108,27 @@ All processed values use property type suffix **`uc_sfrcondo_sm`** (U.S. combine
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│                         BROWSER (Client)                                 │
-│  • Shiny-rendered HTML (Bootstrap 5 theme via Shiny)                     │
-│  • Plotly.js (via shinywidgets) for interactive charts                   │
-│  • WebSocket/session to Shiny server for reactive updates                │
+│                         BROWSER (Client)                                │
+│  • Shiny-rendered HTML (Bootstrap 5 theme via Shiny)                    │
+│  • Plotly.js (via shinywidgets) for interactive charts                  │
+│  • WebSocket/session to Shiny server for reactive updates               │
 └───────────────────────────────────┬─────────────────────────────────────┘
                                     │
                                     ▼
 ┌─────────────────────────────────────────────────────────────────────────┐
-│                    SHINY SERVER (Python process)                         │
-│  app.py                                                                  │
-│  ├── UI layer (shiny.express.ui) — declarative layout                    │
-│  ├── Inputs: state, date_range                                           │
-│  ├── @reactive.calc — data load + date filter                            │
-│  └── @render.* — KPI text, Plotly figures, DataGrids                     │
+│                    SHINY SERVER (Python process)                        │
+│  app.py                                                                 │
+│  ├── UI layer (shiny.express.ui) — declarative layout                   │
+│  ├── Inputs: state, date_range                                          │
+│  ├── @reactive.calc — data load + date filter                           │
+│  └── @render.* — KPI text, Plotly figures, DataGrids                    │
 └───────────────────────────────────┬─────────────────────────────────────┘
                                     │ read at startup / on invalidation
                                     ▼
 ┌─────────────────────────────────────────────────────────────────────────┐
-│                    FILE SYSTEM (same directory as app.py)                 │
-│  listings.csv | list_price.csv | for_sale.csv  ← runtime                 │
-│  Metro_*.csv (optional) ← ETL only                                       │
+│                    FILE SYSTEM (same directory as app.py)               │
+│  listings.csv | list_price.csv | for_sale.csv  ← runtime                │
+│  Metro_*.csv (optional) ← ETL only                                      │
 └─────────────────────────────────────────────────────────────────────────┘
 
 Optional offline path:
