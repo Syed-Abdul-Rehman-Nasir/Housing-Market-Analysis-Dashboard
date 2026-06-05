@@ -25,9 +25,7 @@ It turns raw Realtor.com metro-level CSV data into decision-ready insight — th
 
 ## 🖥️ Dashboard preview
 
-> *Screenshot placeholder — add a screenshot of the running app here.*  
-> Tip: `shiny run app.py`, take a screenshot, save as `assets/preview.png`, and replace this line with `![Dashboard preview](assets/preview.png)`
-
+https://github.com/Syed-Abdul-Rehman-Nasir/Housing-Market-Analysis-Dashboard/issues/1#issue-4596141390
 ---
 
 ## ✨ Key features
