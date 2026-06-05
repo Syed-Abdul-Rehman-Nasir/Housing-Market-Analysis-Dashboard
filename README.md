@@ -25,7 +25,7 @@ It turns raw Realtor.com metro-level CSV data into decision-ready insight — th
 
 ## 🖥️ Dashboard preview
 
-[![Demo Video](assets/thum.png)](https://github.com/Syed-Abdul-Rehman-Nasir/Housing-Market-Analysis-Dashboard/issues/1#issue-4596141390)
+[![Demo Video](assets/thum.png)](https://github.com/user-attachments/assets/f618e1f3-4302-4403-b15d-0e5e46406a84)
 ---
 
 ## ✨ Key features
